@@ -1,0 +1,91 @@
+set number
+set smartcase
+set colorcolumn=80
+set incsearch
+set showmatch
+set smarttab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
+set smartindent
+set ruler
+set hlsearch
+set number 
+set ignorecase
+set showcmd
+set backspace=indent,eol,start
+set surround
+
+# prevent joining line with J
+noremap J <Nop>
+
+
+nnoremap <C-t>     :tabnew<CR>
+inoremap <C-t>     <Esc>:tabnew<CR>
+" move to the previous/next tabpage.
+nnoremap <C-h> gT
+nnoremap <C-l> gt
+
+set mouse=a
+
+inoremap jj <Esc> 
+
+let mapleader=","
+nnoremap ; :
+nnoremap <F1> gg=G
+map <leader>h :noh<CR>
+
+" Delete current word
+nnoremap <C-d> daw
+" Delete current word during insert mode
+inoremap <C-d> <C-[>diwi
+
+nnoremap d "_d
+vnoremap d "_d
+nnoremap D "_D
+vnoremap D "_D
+nnoremap c "_c
+vnoremap c "_c
+nnoremap C "_C
+vnoremap C "_C
+nnoremap x "_x
+vnoremap x "_x
+nnoremap X "_X
+vnoremap X "_X
+
+nnoremap <leader>d d
+vnoremap <leader>d d
+nnoremap <leader>D D
+vnoremap <leader>D D
+nnoremap <leader>c c
+vnoremap <leader>c c
+nnoremap <leader>C C
+vnoremap <leader>C C
+nnoremap <leader>x x
+vnoremap <leader>x x
+nnoremap <leader>X X
+vnoremap <leader>X X
+
+" Change to uppercase and lowercase
+vnoremap <leader>u gUw
+inoremap <leader>u gUw
+vnoremap <leader>l guw
+inoremap <leader>l guw
+
+" Copy the current word
+nnoremap yw yiw
+nnoremap <C-k> <C-u>
+nnoremap <C-j> <C-d>
+
+" Paste during insert mode
+inoremap <Leader>p <ESC>pa 
+
+" Copy to clipboard
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+
+" Prevent recording macro 
+nnoremap q <Nop>
+vnoremap q <Nop>
