@@ -1,0 +1,51 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+;	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap ; :$/;"	m	language:Vim
+<C-d>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap <C-d> <C-[>diwi$/;"	m	language:Vim
+<C-d>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-d> daw$/;"	m	language:Vim
+<C-h>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-h> gT$/;"	m	language:Vim
+<C-j>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-j> <C-d>$/;"	m	language:Vim
+<C-k>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-k> <C-u>$/;"	m	language:Vim
+<C-l>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-l> gt$/;"	m	language:Vim
+<C-t>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap <C-t>     <Esc>:tabnew<CR>$/;"	m	language:Vim
+<C-t>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-t>     :tabnew<CR>$/;"	m	language:Vim
+<C-w>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <C-w> :wq<CR>$/;"	m	language:Vim
+<F1>	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <F1> gg=G$/;"	m	language:Vim
+<leader>c	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>c c$/;"	m	language:Vim
+<leader>C	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>C C$/;"	m	language:Vim
+<leader>c	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>c c$/;"	m	language:Vim
+<leader>C	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>C C$/;"	m	language:Vim
+<leader>d	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>d d$/;"	m	language:Vim
+<leader>D	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>D D$/;"	m	language:Vim
+<leader>d	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>d d$/;"	m	language:Vim
+<leader>D	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>D D$/;"	m	language:Vim
+<leader>h	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^map <leader>h :noh<CR>$/;"	m	language:Vim
+<leader>l	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap <leader>l guw$/;"	m	language:Vim
+<leader>l	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>l guw$/;"	m	language:Vim
+<Leader>p	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap <Leader>p <ESC>pa $/;"	m	language:Vim
+<leader>u	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap <leader>u gUw$/;"	m	language:Vim
+<leader>u	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>u gUw$/;"	m	language:Vim
+<leader>x	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>x x$/;"	m	language:Vim
+<leader>X	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>X X$/;"	m	language:Vim
+<leader>x	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>x x$/;"	m	language:Vim
+<leader>X	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>X X$/;"	m	language:Vim
+<leader>y	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap <leader>y "+y$/;"	m	language:Vim
+<leader>y	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap <leader>y "+y$/;"	m	language:Vim
+c	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap c "_c$/;"	m	language:Vim
+C	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap C "_C$/;"	m	language:Vim
+c	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap c "_c$/;"	m	language:Vim
+C	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap C "_C$/;"	m	language:Vim
+d	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap d "_d$/;"	m	language:Vim
+D	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap D "_D$/;"	m	language:Vim
+d	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap d "_d$/;"	m	language:Vim
+D	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap D "_D$/;"	m	language:Vim
+e	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^map e ea$/;"	m	language:Vim
+J	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^noremap J <Nop>$/;"	m	language:Vim
+jj	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^inoremap jj <Esc> $/;"	m	language:Vim
+mapleader	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^let mapleader=","$/;"	v	language:Vim
+q	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap q <Nop>$/;"	m	language:Vim
+q	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap q <Nop>$/;"	m	language:Vim
+x	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap x "_x$/;"	m	language:Vim
+X	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap X "_X$/;"	m	language:Vim
+x	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap x "_x$/;"	m	language:Vim
+X	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^vnoremap X "_X$/;"	m	language:Vim
+yw	/home/lauwsj/dotfiles/vscode/.vscodevimrc	/^nnoremap yw yiw$/;"	m	language:Vim

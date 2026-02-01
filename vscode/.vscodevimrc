@@ -16,11 +16,9 @@ set number
 set ignorecase
 set showcmd
 set backspace=indent,eol,start
-set surround
 
 # prevent joining line with J
 noremap J <Nop>
-
 
 nnoremap <C-t>     :tabnew<CR>
 inoremap <C-t>     <Esc>:tabnew<CR>
@@ -36,6 +34,9 @@ let mapleader=","
 nnoremap ; :
 nnoremap <F1> gg=G
 map <leader>h :noh<CR>
+
+" To close current file
+nnoremap <C-w> :wq<CR>
 
 " Delete current word
 nnoremap <C-d> daw
@@ -90,19 +91,5 @@ vnoremap <leader>y "+y
 nnoremap q <Nop>
 vnoremap q <Nop>
 
-" Treat _ as word separator
-set iskeyword-=_
-
-" Support navigating between camel case word from IdeaVim
-" Remap end of word to end of word + append
-map w [w
-map e ]wa
-map b [b
-
-" custom commands for JetBrains products
-command! Pin :action PinActiveTab
-command! Co :action CloseAllEditorsButActive
-command! Cop :action CloseAllUnpinnedEditors
-command! R :action Run
-command! D :action Debug
-command! Ge :action GotoNextError
+" Map end of line to go to eol and append
+map e ea
