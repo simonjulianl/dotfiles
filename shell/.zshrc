@@ -75,10 +75,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git docker virtualenv zsh-syntax-highlighting zsh-autosuggestions copypath z)
 
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history pyenv virtualenv)
-
-export VIRTUAL_ENV_DISABLE_PROMPT=1
-
 source $ZSH/oh-my-zsh.sh
 # User configuration
 
