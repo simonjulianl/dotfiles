@@ -71,10 +71,12 @@ set mouse=a
 set background=dark
 
 " Uncomment the next line if your terminal is not configured for solarized
-"let g:solarized_termcolors=256
-
 " Set the colorscheme
 let g:solarized_termcolors=256
+" Disable weird symbols in airline
+let g:airline_powerline_fonts = 0
+let g:airline_symbols_ascii = 1
+
 set background=dark
 set t_Co=256
 colorscheme solarized
@@ -205,42 +207,3 @@ inoremap <leader>l guw
 nnoremap <leader>y "+y
 nnoremap <C-k> <C-u>
 nnoremap <C-j> <C-d>
-
-" OCaml Stuffs
-" ## added by OPAM user-setup for vim / base ## 93ee63e278bdfc07d1139a748ed3fff2 ## you can edit, but keep this line
-" let s:opam_share_dir = system("opam config var share")
-" let s:opam_share_dir = substitute(s:opam_share_dir, '[\r\n]*$', '', '')
-" 
-" let s:opam_configuration = {}
-" 
-" function! OpamConfOcpIndent()
-"   execute "set rtp^=" . s:opam_share_dir . "/ocp-indent/vim"
-" endfunction
-" let s:opam_configuration['ocp-indent'] = function('OpamConfOcpIndent')
-" 
-" function! OpamConfOcpIndex()
-"   execute "set rtp+=" . s:opam_share_dir . "/ocp-index/vim"
-" endfunction
-" let s:opam_configuration['ocp-index'] = function('OpamConfOcpIndex')
-" 
-" function! OpamConfMerlin()
-"   let l:dir = s:opam_share_dir . "/merlin/vim"
-"   execute "set rtp+=" . l:dir
-" endfunction
-" let s:opam_configuration['merlin'] = function('OpamConfMerlin')
-" 
-" let s:opam_packages = ["ocp-indent", "ocp-index", "merlin"]
-" let s:opam_check_cmdline = ["opam list --installed --short --safe --color=never"] + s:opam_packages
-" let s:opam_available_tools = split(system(join(s:opam_check_cmdline)))
-" for tool in s:opam_packages
-"   " Respect package order (merlin should be after ocp-index)
-"   if count(s:opam_available_tools, tool) > 0
-"     call s:opam_configuration[tool]()
-"   endif
-" endfor
-" ## end of OPAM user-setup addition for vim / base ## keep this line
-" ## added by OPAM user-setup for vim / ocp-indent ## bddafe703c02f4c9286990e97d27b939 ## you can edit, but keep this line
-" if count(s:opam_available_tools,"ocp-indent") == 0
-"  source "/home/lauwsj/.opam/4.12.0/share/ocp-indent/vim/indent/ocaml.vim"
-" endif
-" ## end of OPAM user-setup addition for vim / ocp-indent ## keep this line
